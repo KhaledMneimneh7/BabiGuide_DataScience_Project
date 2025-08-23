@@ -83,10 +83,10 @@ business_tourism = ["hotel"] if not include_attraction else ["hotel", "attractio
 def get_business_type(row):
     if pd.notna(row["shop"]):
         return row["shop"]
-    elif pd.notna(row["amenity"]) and row["amenity"] in business_amenities:
-        return row["amenity"]
     elif pd.notna(row["tourism"]) and row["tourism"] in business_tourism:
         return row["tourism"]
+    elif pd.notna(row["amenity"]) and row["amenity"] in business_amenities:
+        return row["amenity"]
     else:
         return None
 
@@ -192,6 +192,7 @@ opening_hours_range = {
     "studio": [(10, 12), (20, 22)],
     "motorcycle_repair": [(8, 10), (17, 19)],
     "cinema": [(14, 16), (23, 1)],
+    "hotel": [(0, 0), (23, 23)],    # 24/7
 }
 
 def random_opening_hours(btype):
