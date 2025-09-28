@@ -34,7 +34,6 @@ BabiGuide is a comprehensive digital guidance platform for Abidjan, designed to 
 - **IDE**: VS Code / Jupyter Notebook
 - **Environment**: Anaconda for package and environment management
 - **Version Control**: Git & GitHub
-- **Optional**: Streamlit or Voilà for interactive dashboards
 
 ## Expected Outcome
 - A fully cleaned dataset of Abidjan’s local businesses.
