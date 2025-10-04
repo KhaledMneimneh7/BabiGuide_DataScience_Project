@@ -27,7 +27,7 @@ BabiGuide is a comprehensive digital guidance platform for Abidjan, designed to 
 5. **Reporting & Documentation**
    - Maintain well-structured Jupyter Notebooks or Python scripts.
    - Comment and document code for clarity and reproducibility.
-   - Export results as HTML or PDF reports.
+   - Export results as HTML and PDF reports.
 
 ## Tools & Technologies
 - **Python**: Pandas, Matplotlib, Seaborn, Plotly

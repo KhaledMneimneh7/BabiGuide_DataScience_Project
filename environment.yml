@@ -1,0 +1,14 @@
+name: babiguide
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11.13
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
